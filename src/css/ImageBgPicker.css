@@ -1,0 +1,29 @@
+.bg-chooser {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+
+.bg-chooser img {
+    width: 20px;
+    height: 20px;
+}
+
+.picker-main .img-item-display {
+    width: 193px;
+    position: relative;
+}
+
+.picker-main .img-item-display img {
+    width: 100%;
+    height: 54px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.picker-main .img-item-display:hover {
+    transform: none;
+    cursor: auto;
+}

@@ -1,0 +1,71 @@
+.logo {
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.logo span{
+    margin-top: 7px;
+    margin-left: 2px;
+}
+
+.navigation {
+    -webkit-app-region: no-drag;
+    display: flex;
+}
+
+.navigation a {
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-right: 50px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+  
+.navigation a.active {
+    color: #FFFFFF;
+    opacity: 1;
+    margin-right: 50px;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.profile {
+    -webkit-app-region: no-drag;
+    display: flex;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-right: 12px;
+}
+  
+.profile img {
+    margin-right: 30px;
+    width: 32px;
+    height: 32px;
+}
+
+.nav-profile-credit {
+    height: 32px;
+    line-height: 32px;
+    margin-right: 18px;
+}
+
+.nav-minmax {
+    height: 32px;
+    width: 32px;
+    margin-right: 2px;
+}
+  
+.nav-minmax:hover {
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+  
+.nav-minmax img {
+    width: 14px;
+    margin-left: 9px;
+}
